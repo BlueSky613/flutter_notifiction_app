@@ -60,7 +60,7 @@ class _MainNavScreenState extends State<MainNavScreen> {
             BoxShadow(
               color: theme.colorScheme.primary.withOpacity(0.4),
               blurRadius: 10,
-              offset: const Offset(0, -2),
+              offset: const Offset(0, -5),
             ),
           ],
         ),
