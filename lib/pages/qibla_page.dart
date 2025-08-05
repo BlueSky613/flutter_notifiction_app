@@ -183,7 +183,7 @@ class QiblaPageState extends State<QiblaPage> {
       children: [
         Text(
           label,
-          style: const TextStyle(fontSize: 16, color: Colors.black87),
+          style: const TextStyle(fontSize: 18, color: Colors.black87),
         ),
         const SizedBox(height: 4),
         Text(
