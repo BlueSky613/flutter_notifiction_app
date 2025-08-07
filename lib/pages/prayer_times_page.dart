@@ -538,8 +538,8 @@ class PrayerTimesPageState extends State<PrayerTimesPage>
         '${ss.toString().padLeft(2, '0')}';
 
     return Container(
-      margin: const EdgeInsets.all(16),
-      padding: const EdgeInsets.all(16),
+      margin: const EdgeInsets.all(18),
+      padding: const EdgeInsets.all(18),
       decoration: BoxDecoration(
         gradient: LinearGradient(
           colors: [
