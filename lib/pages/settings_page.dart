@@ -128,7 +128,7 @@ class _SettingsPageState extends State<SettingsPage> {
             title: Row(
               children: const [
                 Icon(Icons.dark_mode, size: 20),
-                SizedBox(width: 10),
+                SizedBox(width: 15),
                 Text('Enable Dark Mode'),
               ],
             ),
