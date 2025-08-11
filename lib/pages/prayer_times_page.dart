@@ -575,7 +575,7 @@ class PrayerTimesPageState extends State<PrayerTimesPage>
           ),
           const SizedBox(height: 12),
           ClipRRect(
-            borderRadius: BorderRadius.circular(6),
+            borderRadius: BorderRadius.circular(8),
             child: LinearProgressIndicator(
               value: _prayerProgress,
               backgroundColor: Colors.white.withOpacity(0.3),
