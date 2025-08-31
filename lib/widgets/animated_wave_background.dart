@@ -22,7 +22,7 @@ class _AnimatedWaveBackgroundState extends State<AnimatedWaveBackground>
     // This controller will run indefinitely and rebuild the painter every frame
     _waveController = AnimationController(
       vsync: this,
-      duration: const Duration(seconds: 5),
+      duration: const Duration(seconds: 10),
     )..repeat(); // loop forever
   }
 
