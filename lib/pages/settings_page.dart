@@ -118,7 +118,7 @@ class _SettingsPageState extends State<SettingsPage> {
             child: Text(
               'Appearance',
               style: TextStyle(
-                fontSize: 18,
+                fontSize: 20,
                 fontWeight: FontWeight.bold,
                 color: Theme.of(context).colorScheme.onBackground,
               ),
