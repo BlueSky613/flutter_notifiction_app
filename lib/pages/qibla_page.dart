@@ -145,7 +145,7 @@ class QiblaPageState extends State<QiblaPage> {
                         const SizedBox(height: 3),
                         Text("the orange needle points to the Qibla",
                           style: TextStyle(
-                            fontSize: 12,
+                            fontSize: 15,
                             color: Colors.redAccent,
                           ),
                         ),
