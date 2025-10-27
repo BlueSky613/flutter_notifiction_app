@@ -99,7 +99,7 @@ class QiblaPageState extends State<QiblaPage> {
   @override
   Widget build(BuildContext context) {
     final diff = _calculateDifference();
-    final isFacingQibla = diff <= 5;
+    final isFacingQibla = diff <= 10;
     final heading = _deviceHeading ?? 0.0;
     final qibla = _qiblaDirection ?? 0.0;
 
