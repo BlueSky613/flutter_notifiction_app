@@ -35,7 +35,7 @@ class _AnimatedWaveBackgroundState extends State<AnimatedWaveBackground>
     super.initState();
     _waveController = AnimationController(
       vsync: this,
-      duration: const Duration(seconds: 5),
+      duration: const Duration(seconds: 10),
     )..repeat();
   }
 
