@@ -300,7 +300,7 @@ class QuranPageState extends State<QuranPage> with TickerProviderStateMixin {
                   color: Theme.of(context).colorScheme.onPrimary,
                   size: 28,
                 ),
-                const SizedBox(width: 8),
+                const SizedBox(width: 10),
                 Expanded(
                   child: Text(
                     'Juz $selectedJuzForSurahs Surahs',
