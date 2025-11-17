@@ -135,7 +135,7 @@ class QiblaPageState extends State<QiblaPage> {
                             _buildReading('Qibla', qibla),
                           ],
                         ),
-                        const SizedBox(height: 10),
+                        const SizedBox(height: 20),
                         Text("be aware that the compass may not be accurate if you're near magnetic fields",
                           style: TextStyle(
                             fontSize: 12,
