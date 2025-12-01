@@ -107,7 +107,7 @@ class _TasbihPageState extends State<TasbihPage> {
                 color: theme.colorScheme.onBackground,
               ),
             ),
-            const SizedBox(height: 30),
+            const SizedBox(height: 40),
             GestureDetector(
               onTap: _increment,
               onLongPress: _isRunning ? _stopAutoIncrement : _startAutoIncrement,
