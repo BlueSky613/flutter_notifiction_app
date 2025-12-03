@@ -553,7 +553,7 @@ class PrayerTimesPageState extends State<PrayerTimesPage>
         boxShadow: const [
           BoxShadow(
             color: Colors.black12,
-            blurRadius: 8,
+            blurRadius: 10,
             offset: Offset(2, 2),
           ),
         ],
