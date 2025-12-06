@@ -79,7 +79,7 @@ class QuranPageState extends State<QuranPage> with TickerProviderStateMixin {
     });
 
     // Data setup
-    allJuzNumbers = List.generate(30, (index) => index + 1);
+    allJuzNumbers = List.generate(40, (index) => index + 1);
     allSurahNumbers = List.generate(quran.totalSurahCount, (index) => index + 1);
     totalSurahCount = quran.totalSurahCount;
 
