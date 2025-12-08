@@ -88,7 +88,7 @@ class _TasbihPageState extends State<TasbihPage> {
       ),
       body: Container(
         width: double.infinity,
-        padding: const EdgeInsets.all(32),
+        padding: const EdgeInsets.all(35),
         decoration: BoxDecoration(
           gradient: LinearGradient(
             colors: [theme.colorScheme.primary, theme.colorScheme.secondary],
