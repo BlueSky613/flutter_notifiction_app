@@ -145,7 +145,7 @@ class _SettingsPageState extends State<SettingsPage> {
                   Text(
                     'Current: Theme ${themeNotifier.selectedThemeIndex + 1}',
                   ),
-                  const SizedBox(width: 8),
+                  const SizedBox(width: 10),
                   // Show color squares for the current theme
                   ..._themePreviewSwatches(themeNotifier.selectedThemeIndex, themeNotifier),
                 ],
