@@ -22,7 +22,7 @@ class _AzkarAndTasbihAdvancedPageState
   void initState() {
     super.initState();
     // Two tabs: "Azkar" & "Tasbih"
-    _tabController = TabController(length: 2, vsync: this);
+    _tabController = TabController(length: 3, vsync: this);
   }
 
   @override
