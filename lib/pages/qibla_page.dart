@@ -185,7 +185,7 @@ class QiblaPageState extends State<QiblaPage> {
           label,
           style: const TextStyle(fontSize: 18, color: Colors.black87),
         ),
-        const SizedBox(height: 4),
+        const SizedBox(height: 5),
         Text(
           '${value.toStringAsFixed(1)}°',
           style: const TextStyle(
