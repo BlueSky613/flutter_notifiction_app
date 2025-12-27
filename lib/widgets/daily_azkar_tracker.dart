@@ -14,7 +14,7 @@ class _DailyAzkarTrackerState extends State<DailyAzkarTracker>
     with SingleTickerProviderStateMixin {
   late SharedPreferences _prefs;
   int dailyCount = 0;
-  final int dailyGoal = 100;
+  final int dailyGoal = 120;
 
   late AnimationController _animController;
   late Animation<double> _progressAnimation;
