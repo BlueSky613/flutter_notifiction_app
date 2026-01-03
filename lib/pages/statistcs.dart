@@ -13,7 +13,7 @@ class StatisticsPage extends StatelessWidget {
         child: Text(
           'Statistics Placeholder\n(Future Implementation)',
           textAlign: TextAlign.center,
-          style: TextStyle(fontSize: 18),
+          style: TextStyle(fontSize: 20),
         ),
       ),
     );
