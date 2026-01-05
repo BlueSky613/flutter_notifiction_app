@@ -584,7 +584,7 @@ class QuranPageState extends State<QuranPage> with TickerProviderStateMixin {
         title: Row(
           children: [
             Icon(Icons.book, size: 28),  // Book icon added here
-            const SizedBox(width: 8),
+            const SizedBox(width: 10),
             const Text('Quran'),
           ],
         ),
