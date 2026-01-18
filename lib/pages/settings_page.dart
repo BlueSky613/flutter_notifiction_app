@@ -127,7 +127,7 @@ class _SettingsPageState extends State<SettingsPage> {
           SwitchListTile(
             title: Row(
               children: const [
-                Icon(Icons.dark_mode, size: 30),
+                Icon(Icons.dark_mode, size: 35),
                 SizedBox(width: 35),
                 Text('Enable Dark Mode'),
               ],
