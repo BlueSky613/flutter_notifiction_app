@@ -6,7 +6,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 class PrayerSettingsProvider extends ChangeNotifier {
   CalculationMethod _calculationMethod = CalculationMethod.karachi;
   Madhab _madhab = Madhab.hanafi;
-  bool _use24hFormat = false;
+  bool _use24hFormat = true;
 
   // GETTERS
   CalculationMethod get calculationMethod => _calculationMethod;
