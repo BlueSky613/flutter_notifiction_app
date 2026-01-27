@@ -19,7 +19,7 @@ class AzkarModel {
     required this.translation,
     required this.reference,
     required this.audioUrl,
-    this.counter = 0,
+    this.counter = 1,
     this.isFavorite = false,
     this.isExpanded = false,
   });
