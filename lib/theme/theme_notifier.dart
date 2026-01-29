@@ -19,7 +19,7 @@ class ThemeNotifier extends ChangeNotifier {
 
   // Which "light theme" index is selected: 0..8
   // (0..7 => predefined, 8 => Custom Theme)
-  int _selectedThemeIndex = 0;
+  int _selectedThemeIndex = 1;
   int get selectedThemeIndex => _selectedThemeIndex;
 
   // For the custom theme, we store 4 colors:
