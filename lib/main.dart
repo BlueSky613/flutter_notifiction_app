@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
     final themeNotifier = Provider.of<ThemeNotifier>(context);
     return MaterialApp(
       title: 'Advanced Islamic App',
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: true,
       // Use the theme from ThemeNotifier:
       theme: themeNotifier.lightTheme,
       darkTheme: themeNotifier.darkTheme,
