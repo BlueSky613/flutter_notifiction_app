@@ -100,7 +100,7 @@ class QuranPageState extends State<QuranPage> with TickerProviderStateMixin {
     // Animation controllers
     juzAnimationController = AnimationController(
       vsync: this,
-      duration: const Duration(milliseconds: 500),
+      duration: const Duration(milliseconds: 1000),
     );
     surahAnimationController = AnimationController(
       vsync: this,
