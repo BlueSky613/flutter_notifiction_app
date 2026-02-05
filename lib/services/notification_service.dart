@@ -79,7 +79,7 @@ class NotificationService {
 
   /// Helper method to send a test notification after 5 seconds.
   Future<void> sendTestNotification() async {
-    final testTime = DateTime.now().add(const Duration(seconds: 5));
+    final testTime = DateTime.now().add(const Duration(seconds: 10));
     await scheduleNotification(
       id: 999,
       title: 'Test Prayer Notification',
